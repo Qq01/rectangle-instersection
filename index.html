@@ -85,9 +85,9 @@
                     ctx.fillRect(rect1.x - x1 / 2, rect1.y, rect1.width, rect1.height);
                 } else if (axisName == 'x2') {
                     ctx.fillStyle = 'rgba(0, 255, 0, 1)';
-                    ctx.fillRect(rect1.x + x2 / 2, rect1.y, rect1.width, rect1.height);
-                    ctx.fillStyle = 'rgba(0, 0, 255, 1)';
                     ctx.fillRect(rect2.x - x2 / 2, rect2.y, rect2.width, rect2.height);
+                    ctx.fillStyle = 'rgba(0, 0, 255, 1)';
+                    ctx.fillRect(rect1.x + x2 / 2, rect1.y, rect1.width, rect1.height);
                 } else if (axisName == 'y1') {
                     ctx.fillStyle = 'rgba(0, 0, 255, 1)';
                     ctx.fillRect(rect1.x, rect1.y - y1 / 2, rect1.width, rect1.height);
